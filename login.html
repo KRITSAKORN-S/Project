@@ -1,5 +1,7 @@
 <html>
     <head>
+        <meta charset="UTF-8">
+        <script type="text/javascript" src="login.js"></script>
         <link rel="stylesheet" type="text/css" href="login.css">
         <title>Log-In</title>
     </head>
@@ -15,9 +17,10 @@
         <main>
             <h1>LOG-IN</h1>
             <h2>เข้าสู่ระบบสำหรับนักศึกษา / ผู้จัดการหอพัก</h2>
-            <form>
+            <form name="form">
                 <input type="text" placeholder="&#128100; USERNAME" id="user" name="usser">
                 <input type="password" placeholder="&#128273; PASSWORD" id="pwd" name="pwd" maxlength="13">
+                <img src="image/eye.png" width="20" height="20" onclick="show_psw(true)" onmouseout="show_psw(false)"/>
             </form>
         </main>
     </body>
