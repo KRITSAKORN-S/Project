@@ -55,10 +55,31 @@ main h2{
 
 form{
     position: absolute;
-    left: 44%;
+    left: 42%;
     top: 40%;
 }
 
-form input {
+form input{
+    flex: 1;
+    padding:  3 10px;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+form img{
+    width: 20px;
+    height: 20px;
     position: relative;
+    left: -280;
+    top: 55;
+}
+
+.username{
+    position: relative;
+}
+
+.password{
+    position: relative;
+    top:50;
+    left: -246;
 }
