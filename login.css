@@ -40,3 +40,15 @@ header{
     left: 500;
     top: -10;
 }
+
+main h1{
+    font-size: 20px;
+    font-family: "thaoma";
+    text-align: center;
+}
+
+main h2{
+    font-size: 16px;
+    font-family: "thaoma";
+    text-align: center;
+}
