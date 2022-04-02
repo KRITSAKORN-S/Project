@@ -10,7 +10,7 @@ header{
     height: 100;
     position: fixed;
     left: 400;
-    top: 18;
+    top: 25;
 }
 
 .header h4{
@@ -19,7 +19,7 @@ header{
     font-family: "oppins", sans-serif;
     position: relative;
     left: 500;
-    top: 25;
+    top: 35;
     
 }
 
@@ -29,7 +29,7 @@ header{
     font-family: "oppins", sans-serif;
     position: relative;
     left: 500;
-    top: 10;
+    top: 20;
 }
 
 .header h3{
@@ -38,18 +38,18 @@ header{
     font-family: "oppins", sans-serif;
     position: relative;
     left: 500;
-    top: -10;
+    top: 0;
 }
 
 main h1{
-    font-size: 20px;
-    font-family: "thaoma";
+    font-size: 36px;
+    font-family: "Broadway";
     text-align: center;
 }
 
 main h2{
-    font-size: 16px;
-    font-family: "thaoma";
+    font-size: 24px;
+    font-family: "JasmineUPC";
     text-align: center;
 }
 
