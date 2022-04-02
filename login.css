@@ -8,9 +8,9 @@ header{
 .logo{
     width: 100;
     height: 100;
-    position: fixed;
+    position: relative;
     left: 400;
-    top: 25;
+    top: 20;
 }
 
 .header h4{
@@ -18,8 +18,8 @@ header{
     font-size: 12px;
     font-family: "oppins", sans-serif;
     position: relative;
-    left: 500;
-    top: 35;
+    left: 505;
+    top: -75;
     
 }
 
@@ -28,8 +28,8 @@ header{
     font-size: 24px;
     font-family: "oppins", sans-serif;
     position: relative;
-    left: 500;
-    top: 20;
+    left: 505;
+    top: -90;
 }
 
 .header h3{
@@ -37,8 +37,8 @@ header{
     font-size: 16px;
     font-family: "oppins", sans-serif;
     position: relative;
-    left: 500;
-    top: 0;
+    left: 505;
+    top: -110;
 }
 
 main h1{
