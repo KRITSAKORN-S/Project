@@ -3,6 +3,14 @@
         <meta charset="UTF-8">
         <script type="text/javascript" src="login.js"></script>
         <link rel="stylesheet" type="text/css" href="login.css">
+        <STYLE TYPE="TEXT/CSS"><!--
+            A:link {
+            text-decoration:none;
+            }
+            A:visited {
+            text-decoration:none;
+            }
+            </STYLE>
         <title>Log-In</title>
     </head>
     <body>
@@ -20,9 +28,9 @@
             <form name="form">
                 <input type="text" placeholder="&#128100; USERNAME" id="user" name="usser" class="username">
                 <input type="password" placeholder="&#128273; PASSWORD" id="pwd" name="pwd" maxlength="13" class="password">
-                <img src="image/eye.png" onclick="show_psw(true)" onmouseout="show_psw(false)"/>
+                <img src="image/eye.png" onclick="show_pwd(true)" onmouseout="show_pwd(false)"/>
                 <button type="submit">LOG-IN</button>
-                <p>ลงทะเบียน/REGISTER<p>
+                <a href="register.html">ลงทะเบียน/REGISTER</a>
             </form>
         </main>
     </body>

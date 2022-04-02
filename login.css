@@ -94,10 +94,11 @@ form button{
     border: 0;
 }
 
-form p{
+form a{
+    color: #000;
     position: absolute;
-    top: 71;
-    left: 120;
+    top: 85;
+    left: 130;
     font-size: 12;
-    font-family: sans-serif;
+    font-family: Tahoma;
 }
