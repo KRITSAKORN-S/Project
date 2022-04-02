@@ -83,3 +83,21 @@ form img{
     top:50;
     left: -246;
 }
+
+form button{
+    position: relative;
+    left: -520;
+    top: 120;
+    border-radius: 60px;
+    padding: 10px 100px;
+    background: orangered;
+    border: 0;
+}
+
+form p{
+    position: absolute;
+    top: 71;
+    left: 120;
+    font-size: 12;
+    font-family: sans-serif;
+}
