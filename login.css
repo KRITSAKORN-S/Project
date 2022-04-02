@@ -59,9 +59,9 @@ form{
 }
 
 form input{
-    flex: 1;
-    padding:  3 10px;
-    font-size: 18px;
+    padding:  4px;
+    padding-right: 70px;
+    font-size: 24px;
     border-radius: 8px;
 }
 
@@ -69,26 +69,28 @@ form img{
     width: 20px;
     height: 20px;
     position: relative;
-    left: -260px;
+    left: -290px;
     top: 55px;
 }
 
 .username{
     position: relative;
+    font-family: "JasmineUPC";
 }
 
 .password{
     position: relative;
     top:50px;
-    left: -230px;
+    left: -256px;
+    font-family: "JasmineUPC";
 }
 
 form button{
     position: relative;
-    left: -490px;
+    left: -540px;
     top: 130px;
     border-radius: 60px;
-    padding: 10px 85px;
+    padding: 10px 100px;
     background: orangered;
     border: 0px;
     font-family: "Bradley Hand ITC";
@@ -101,7 +103,8 @@ form a{
     color: #000;
     position: absolute;
     top: 88px;
-    left: 108px;
+    left: 133px;
     font-size: 18px;
     font-family: "JasmineUPC";
 }
+
