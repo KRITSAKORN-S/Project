@@ -28,13 +28,32 @@
         <main>
             <h1>REGISTER</h1>
             <h2>ลงทะเบียน</h2>
-            <form name = "form">
-                <input type = "text" placeholder = "ชื่อ-นามสกุล" id = "name" name = "firstlastname" class = "name">
-                <input type = "text" placeholder = "วัน เดือน ปีเกิด" id = "birthday" name = "Birthday" class = "date">
-                <input type = "text" placeholder = "รหัสนักศึกษา" id = "stid" name = "ID" maxlength = "13" class = "id">
-                <input type = "text" placeholder = "เลขบัตรประจำตัวประชาชน" id = "pid" name = "PID" maxlength = "13" class = "pid">
-                <input type = "text" placeholder = "เบอร์โทรศัพท์" id = "phonenumber" name = "Pnum" maxlength = "10" class = "phone">
-            </form>
+            <div class = "container">
+                <form name = "form" action="login.html">
+                    <label>
+                        <input type = "text" placeholder = "ชื่อ-นามสกุล" id = "name" name = "firstlastname" class = "name"><br>
+                    </label>
+                    <label>
+                        <input type = "text" placeholder = "วัน เดือน ปีเกิด" id = "birthday" name = "Birthday" class = "date"><br>
+                    </label>
+                    <label>
+                        <input type = "text" placeholder = "รหัสนักศึกษา" id = "stid" name = "ID" maxlength = "13" class = "id"><br>
+                        
+                    </label>
+                    <p id="p1">****ใช้รหัสนักศึกษาเป็น Username เท่านั้น</p>
+                    <label>
+                        <input type = "text" placeholder = "เลขบัตรประชาชน" id = "pid" name = "PID" maxlength = "13" class = "pid"><br>
+                        
+                    </label>
+                    <p id="p2">****ใช้รหัสนักศึกษาเป็น Username เท่านั้น</p>
+                    <label>
+                        <input type = "text" placeholder = "เบอร์โทรศัพท์" id = "phonenumber" name = "Pnum" maxlength = "10" class = "phone"><br>
+                    </label>
+                    <label>
+                        <button type="submit">SUBMIT</button>
+                    </label>
+                </form>
+            </div>
         </main>
     </body>
 </html>
