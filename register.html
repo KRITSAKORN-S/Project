@@ -3,7 +3,7 @@
     <head>
         <title>Register</title>
         <meta charset="UTF-8">
-        <!--<script type="text/javascript" src="login.js"></script>-->
+        <script type="text/javascript" src="register.js"></script>
         <link rel="stylesheet" type="text/css" href="register.css">
         <STYLE TYPE="TEXT/CSS">
             A:link {
@@ -13,14 +13,14 @@
             text-decoration:none;
             }
             </STYLE>
-        <title>Log-In</title>
+        <title>Register</title>
     </head>
     <body>
         <header>
             <div class="header">
                 <img src="image/logo.png" class="logo">
-                <h4>หอพักนักศึกษา / STUDENT DORMIYORY</h4>
-                <h1>มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ</h1>
+                <h1>หอพักนักศึกษา / STUDENT DORMIYORY</h1>
+                <h2>มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ</h2>
                 <h3>KING MONGKUT'S UNIVERSITY OF TECHNOLOGY NORTH BANGKOK</h3>
             </div>
         </header>
@@ -31,23 +31,23 @@
             <div class = "container">
                 <form name = "form" action="login.html">
                     <label>
-                        <input type = "text" placeholder = "ชื่อ-นามสกุล" id = "name" name = "firstlastname" class = "name"><br>
+                        <input type = "text" placeholder = "ชื่อ-นามสกุล" id = "name" name = "firstlastname"><br>
                     </label>
                     <label>
-                        <input type = "text" placeholder = "วัน เดือน ปีเกิด" id = "birthday" name = "Birthday" class = "date"><br>
+                        <input type = "date" placeholder = "วัน เดือน ปีเกิด" id = "birthday" name = "Birthday"><br>
                     </label>
                     <label>
-                        <input type = "text" placeholder = "รหัสนักศึกษา" id = "stid" name = "ID" maxlength = "13" class = "id"><br>
+                        <input type = "text" placeholder = "รหัสนักศึกษา" id = "stid" name = "ID" maxlength = "13"><br>
                         
                     </label>
                     <p id="p1">****ใช้รหัสนักศึกษาเป็น Username เท่านั้น</p>
                     <label>
-                        <input type = "text" placeholder = "เลขบัตรประชาชน" id = "pid" name = "PID" maxlength = "13" class = "pid"><br>
+                        <input type = "text" placeholder = "เลขบัตรประชาชน" id = "pid" name = "PID" maxlength = "13"><br>
                         
                     </label>
                     <p id="p2">****ใช้รหัสนักศึกษาเป็น Username เท่านั้น</p>
                     <label>
-                        <input type = "text" placeholder = "เบอร์โทรศัพท์" id = "phonenumber" name = "Pnum" maxlength = "10" class = "phone"><br>
+                        <input type = "text" placeholder = "เบอร์โทรศัพท์" id = "phonenumber" name = "Pnum" maxlength = "10"><br>
                     </label>
                     <label>
                         <button type="submit">SUBMIT</button>

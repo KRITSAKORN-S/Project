@@ -1,55 +1,67 @@
 header{
     width: 100%;
-    height: 30vh;
-    background-color: #AC3520;
+    height: 97vh;
+    background-color: black;
 }
 
-.logo{
-    width: 170px;
-    height: 170px;
-    position: relative;
-    left: 400px;
-    top: 20px;
-}
-
-.header h4{
-    color: white;
-    font-size: 14px;
-    font-family: "oppins", sans-serif;
-    position: relative;
-    left: 590px;
-    top: -120px;
-    
+.header img{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    left: 4%;
+    top: 3%;
+    box-shadow:  0.1em 0.1em 0.2em black;
+    border-radius: 50%;
 }
 
 .header h1{
     color: white;
-    font-size: 24px;
+    font-size: 38px;
     font-family: "oppins", sans-serif;
-    position: relative;
-    left: 590px;
-    top: -130px;
+    position: absolute;
+    left: 13.3%;
+    top: 3%;
+    text-shadow: 0.2em 0.2em 0.3em black;
 }
 
-.header h3{
+.header h2{
     color: white;
-    font-size: 16px;
+    font-size: 18px;
     font-family: "oppins", sans-serif;
-    position: relative;
-    left: 590px;
-    top: -150px;
+    position: absolute;
+    left: 16.5%;
+    top: 10%;
+    text-shadow: 0.2em 0.2em 0.3em black;
+}
+.bg{
+    width: 29%;
+    height: 67vh;
+    background-color: #000;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    border-radius: 20px;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
 }
 
 main h1{
     font-size: 36px;
     font-family: "Broadway";
-    text-align: center;
+    position: absolute;
+    left: 45%;
+    top: 26%;
+    color: white;
 }
 
 main h2{
     font-size: 24px;
     font-family: "JasmineUPC";
     text-align: center;
+    position: absolute;
+    left: 38%;
+    top: 34%;
+    color: white;
 }
 
 form{
@@ -59,51 +71,98 @@ form{
 }
 
 form input{
-    padding:  4px;
-    padding-right: 70px;
+    padding:  5px 10px;
+    width: 200px;
     font-size: 24px;
     border-radius: 8px;
+    border: none;
 }
 
 form img{
     width: 20px;
     height: 20px;
     position: relative;
-    left: -290px;
-    top: 55px;
+    left: -252px;
+    top: -5px;
 }
 
-.username{
+#user{
     position: relative;
     font-family: "JasmineUPC";
+    left: 2px;
+    top: -60px;
 }
 
-.password{
+#pwd{
     position: relative;
-    top:50px;
-    left: -256px;
+    top: -10px;
+    left: -223px;
     font-family: "JasmineUPC";
 }
-
-form button{
+#login{
     position: relative;
-    left: -540px;
-    top: 130px;
+    left: -69%;
+    top: 70px;
     border-radius: 60px;
-    padding: 10px 100px;
+    padding: 15px 10px;
     background: orangered;
     border: 0px;
     font-family: "Bradley Hand ITC";
     font-weight: bold;
     font-size: 18px;
-
 }
 
 form a{
     color: #000;
     position: absolute;
-    top: 88px;
-    left: 133px;
-    font-size: 18px;
-    font-family: "JasmineUPC";
+    top: -650%;
+    left: 95%;
+    width: 60px;
+    font-size: 16px;
+    font-family: "oppins", sans-serif;
+    background-color: orangered;
+    border-radius: 5px;
+    border: none;
+    padding: 12px 18px;
+    box-shadow: 0.1em 0.1em 0.2em black;
+}
+
+.slide{
+    width: 99%;
+    height: 98vh;
+    margin-top: 10px;
+    box-shadow: 0px 0px 20px 5px rgb(#000);
+    overflow: hidden;
+    position: absolute;
+    top: -1%;
+    left: 0.5%;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+}
+
+.slide figure img{
+    width: 20%;
+    height: 98vh;
+    float: left;
+}
+
+.slide figure{
+    position: relative;
+    width: 500%;
+    margin: 0px;
+    left: 0px;
+    animation: kmutnb 20s infinite linear;
+}
+
+@keyframes kmutnb{
+    10%{left: 0%}
+    20%{left: 0%}
+    30%{left: -100%}
+    40%{left: -100%}
+    50%{left: -200%}
+    60%{left: -200%}
+    70%{left: -300%}
+    80%{left: -300%}
+    90%{left: -400%}
+    100%{left: -400%}
 }

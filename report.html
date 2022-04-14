@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Report</title>
+        <meta charset="UTF-8">
+        <script type="text/javascript" src="register.js"></script>
+        <link rel="stylesheet" type="text/css" href="report.css">
+        <STYLE TYPE="TEXT/CSS">
+            A:link {
+            text-decoration:none;
+            }
+            A:visited {
+            text-decoration:none;
+            }
+            </STYLE>
+        <title>Register</title>
+    </head>
+    <body>
+        <header>
+            <div class="header">
+                <img src="image/logo.png" class="logo">
+                <h1>หอพักนักศึกษา / STUDENT DORMIYORY</h1>
+                <h2>มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ</h2>
+                <h3>KING MONGKUT'S UNIVERSITY OF TECHNOLOGY NORTH BANGKOK</h3>
+            </div>
+        </header>
+        <nav>
+            <p>แจ้งปัญหาห้องพักนักศึกษา</p>
+            <a href = "login.html" class = "logout">LOG OUT</a>
+        </nav>
+
+        <main>
+            <div class="show-info">
+                <p id="stdid">รหัสนักศึกษา : </p>
+                <p id="name">ชื่อ-นามสกุล : </p>
+                <p id="phone">เบอร์โทร : </p>
+                <p id="room">เลขห้อง : </p>
+            </div>
+            <div class = "container">
+                <form name = "form" action="login.html">
+                    <p id="title">ปัญหาที่พบในห้องพัก</p>
+                    <label>
+                        <textarea cols="40" rows="5" id="block"></textarea><br>
+                    </label>
+                </form>
+            </div>
+            <button type="submit">SUBMIT</button>
+        </main>
+    </body>
+</html>
